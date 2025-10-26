@@ -1,9 +1,13 @@
 {
   "name": "iam",
+    "homepage": "https://ahmed-arafat011.github.io/portfolio-react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+"deploy": "gh-pages -d dist",
+
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
@@ -25,4 +29,5 @@
     "globals": "^16.4.0",
     "vite": "^7.1.7"
   }
+
 }
